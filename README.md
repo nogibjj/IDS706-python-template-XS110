@@ -36,7 +36,9 @@ Then use ``make install`` to install libraries and packages and run ``make test`
 
 This template is a way of initializing and maintaining Python repositories, and make it easy for development.
 
-The ``Makefile`` provides a set of commands to simplify common development tasks. In particular, it includes a ``make install`` command that can be custumized to install the project's libraries and packages, and a make test command that can be customized to run the project's tests. When used in combination with GitHub Actions, it automates the testing process for code.
+The ``Makefile`` provides a set of commands to simplify common development tasks. In particular, it includes a ``make install`` command that can be custumized to install the project's libraries and packages, and a ``make test`` command that can be customized to run the project's tests. When used in combination with GitHub Actions, it automates the testing process for code.
+
+![img](.image.png)
 
 The ``.devcontainer`` configuration file is used to ensure that everyone working on the project uses a consistent development environment. This helps avoid issues related to different system configurations. And it easily set up a development environment using GitHub Codespaces.
 
