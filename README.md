@@ -11,7 +11,7 @@ This template is to provide a good source to make it work for the new project an
 In this template, it includes the following files:
 
 - ``.devcontainer`` includes a Dockerfile and devcontainer.json.
-                The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
+                The 'Dockerfile' within this folder specifies how the container should be built, and devcontainer.json file specifies the development environment settings for Github Codespaces.
 
 - ``workflows`` includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
 
@@ -38,4 +38,9 @@ This template is a way of initializing and maintaining Python repositories, and 
 
 The ``Makefile`` provides a set of commands to simplify common development tasks. In particular, it includes a ``make install`` command that can be custumized to install the project's libraries and packages, and a make test command that can be customized to run the project's tests. When used in combination with GitHub Actions, it automates the testing process for code.
 
-The ``.devcontainer`` configuration file is used to ensure that everyone working on the project uses a consistent development environment. This helps avoid issues related to different system configurations.
+The ``.devcontainer`` configuration file is used to ensure that everyone working on the project uses a consistent development environment. This helps avoid issues related to different system configurations. And it easily set up a development environment using GitHub Codespaces.
+
+## Reference
+
+https://github.com/carrieli15/706-Data-Engineering-Template
+https://github.com/nogibjj/python-template
